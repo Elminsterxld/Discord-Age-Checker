@@ -19,4 +19,4 @@ Customizable options in `config.json`
 * **Proxy format:** `ip:port` or `user:pass:ip:port`
 
 
-[Demo](https://media.discordapp.net/attachments/1052686555522809926/1056603228692815973/accountcheck.png?width=1200&height=365)
+![Demo](https://media.discordapp.net/attachments/1052686555522809926/1056603228692815973/accountcheck.png?width=1200&height=365)
