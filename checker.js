@@ -165,6 +165,8 @@ setTitle(`Token Age Checker | 2015 : ${onbes} | 2016 : ${onaltı} | 2017: ${onye
         else {
           console.log(clc.red("[!] Unknown error with token:", token, response.status))
           invalid += 1
+		setTitle(`Token Age Checker | 2015 : ${onbes} | 2016 : ${onaltı} | 2017: ${onyedi} | 2018 : ${onsekiz} |  2019 : ${ondokuz} |  2020 : ${yirmi} |  2021 : ${yirmibir} | 2022 : ${yirmiiki}  | İnvalid : ${invalid} `);
+  
           if (config.save_invalid){
             fs.appendFile(__dirname + '/invalid.txt', token+'\n', err => {
               if (err) console.log(clc.red('[!] Error saving invalid token to file'))
@@ -185,6 +187,8 @@ setTitle(`Token Age Checker | 2015 : ${onbes} | 2016 : ${onaltı} | 2017: ${onye
         else if (error.response.status === 401) {
           console.log(clc.red("[-] Bad token:", token))
           invalid += 1
+		setTitle(`Token Age Checker | 2015 : ${onbes} | 2016 : ${onaltı} | 2017: ${onyedi} | 2018 : ${onsekiz} |  2019 : ${ondokuz} |  2020 : ${yirmi} |  2021 : ${yirmibir} | 2022 : ${yirmiiki}  | İnvalid : ${invalid} `);
+  
           if (config.save_invalid){
             fs.appendFile(__dirname + '/invalid.txt', token+'\n', err => {
               if (err) console.log(clc.red('[!] Error saving invalid token to file'))
@@ -194,6 +198,8 @@ setTitle(`Token Age Checker | 2015 : ${onbes} | 2016 : ${onaltı} | 2017: ${onye
         else if (error.response.status == 403) {
           console.log(clc.yellow("[-] Locked token:", token))
           invalid += 1
+		setTitle(`Token Age Checker | 2015 : ${onbes} | 2016 : ${onaltı} | 2017: ${onyedi} | 2018 : ${onsekiz} |  2019 : ${ondokuz} |  2020 : ${yirmi} |  2021 : ${yirmibir} | 2022 : ${yirmiiki}  | İnvalid : ${invalid} `);
+  
           if (config.save_locked){
             fs.appendFile(__dirname + '/locked.txt', token+'\n', err => {
               if (err) console.log(clc.red('[!] Error saving invalid token to file'))
@@ -203,6 +209,8 @@ setTitle(`Token Age Checker | 2015 : ${onbes} | 2016 : ${onaltı} | 2017: ${onye
         else {
           console.log(clc.red("[!] Unknown error with token:", token))
           invalid += 1
+		setTitle(`Token Age Checker | 2015 : ${onbes} | 2016 : ${onaltı} | 2017: ${onyedi} | 2018 : ${onsekiz} |  2019 : ${ondokuz} |  2020 : ${yirmi} |  2021 : ${yirmibir} | 2022 : ${yirmiiki}  | İnvalid : ${invalid} `);
+  
           if (config.save_invalid){
             fs.appendFile(__dirname + '/invalid.txt', token+'\n', err => {
               if (err) console.log(clc.red('[!] Error saving invalid token to file'))
