@@ -76,7 +76,7 @@ if( timestamp > 1420070400000 && timestamp <1451606400000) {
 setTitle(`Token Age Checker | 2015 : ${onbes} | 2016 : ${onaltı} | 2017: ${onyedi} | 2018 : ${onsekiz} |  2019 : ${ondokuz} |  2020 : ${yirmi} |  2021 : ${yirmibir} | 2022 : ${yirmiiki}  | İnvalid : ${invalid} `);
   
 fs.appendFile(__dirname + '/2015.txt', token+'\n', err => {
-              if (err) console.log(clc.red('[!] Error saving invalid token to file'))
+              if (err) console.log(clc.red('[!] Error saving 2015 token to file'))
             })
 }else 
 if( timestamp > 1451606400000 && timestamp <1483228800000) {
@@ -85,7 +85,7 @@ if( timestamp > 1451606400000 && timestamp <1483228800000) {
 setTitle(`Token Age Checker | 2015 : ${onbes} | 2016 : ${onaltı} | 2017: ${onyedi} | 2018 : ${onsekiz} |  2019 : ${ondokuz} |  2020 : ${yirmi} |  2021 : ${yirmibir} | 2022 : ${yirmiiki}  | İnvalid : ${invalid} `);
   
 fs.appendFile(__dirname + '/2016.txt', token+'\n', err => {
-              if (err) console.log(clc.red('[!] Error saving invalid token to file'))
+              if (err) console.log(clc.red('[!] Error saving 2016 token to file'))
             })
 
 } else 
@@ -96,7 +96,7 @@ if( timestamp > 1483228800000 && timestamp <1514764800000) {
 setTitle(`Token Age Checker | 2015 : ${onbes} | 2016 : ${onaltı} | 2017: ${onyedi} | 2018 : ${onsekiz} |  2019 : ${ondokuz} |  2020 : ${yirmi} |  2021 : ${yirmibir} | 2022 : ${yirmiiki}  | İnvalid : ${invalid} `);
   
 fs.appendFile(__dirname + '/2017.txt', token+'\n', err => {
-              if (err) console.log(clc.red('[!] Error saving invalid token to file'))
+              if (err) console.log(clc.red('[!] Error saving 2017 token to file'))
             })
 
 } else 
@@ -107,7 +107,7 @@ if( timestamp > 1514764800000 && timestamp <1546300800000) {
 setTitle(`Token Age Checker | 2015 : ${onbes} | 2016 : ${onaltı} | 2017: ${onyedi} | 2018 : ${onsekiz} |  2019 : ${ondokuz} |  2020 : ${yirmi} |  2021 : ${yirmibir} | 2022 : ${yirmiiki}  | İnvalid : ${invalid} `);
   
 fs.appendFile(__dirname + '/2018.txt', token+'\n', err => {
-              if (err) console.log(clc.red('[!] Error saving invalid token to file'))
+              if (err) console.log(clc.red('[!] Error saving 2018 token to file'))
             })
 
 } else 
@@ -119,7 +119,7 @@ if( timestamp > 1546300800000 && timestamp <1577836800000) {
 setTitle(`Token Age Checker | 2015 : ${onbes} | 2016 : ${onaltı} | 2017: ${onyedi} | 2018 : ${onsekiz} |  2019 : ${ondokuz} |  2020 : ${yirmi} |  2021 : ${yirmibir} | 2022 : ${yirmiiki}  | İnvalid : ${invalid} `);
   
 fs.appendFile(__dirname + '/2019.txt', token+'\n', err => {
-              if (err) console.log(clc.red('[!] Error saving invalid token to file'))
+              if (err) console.log(clc.red('[!] Error saving 2019 token to file'))
             })
 
 } else 
@@ -130,7 +130,7 @@ if( timestamp > 1577836800000 && timestamp <1609459200000) {
 setTitle(`Token Age Checker | 2015 : ${onbes} | 2016 : ${onaltı} | 2017: ${onyedi} | 2018 : ${onsekiz} |  2019 : ${ondokuz} |  2020 : ${yirmi} |  2021 : ${yirmibir} | 2022 : ${yirmiiki}  | İnvalid : ${invalid} `);
   
 fs.appendFile(__dirname + '/2020.txt', token+'\n', err => {
-              if (err) console.log(clc.red('[!] Error saving invalid token to file'))
+              if (err) console.log(clc.red('[!] Error saving 2020 token to file'))
             })
 
 } else 
@@ -142,7 +142,7 @@ if( timestamp > 1609459200000 && timestamp <1609459200000) {
 setTitle(`Token Age Checker | 2015 : ${onbes} | 2016 : ${onaltı} | 2017: ${onyedi} | 2018 : ${onsekiz} |  2019 : ${ondokuz} |  2020 : ${yirmi} |  2021 : ${yirmibir} | 2022 : ${yirmiiki}  | İnvalid : ${invalid} `);
   
 fs.appendFile(__dirname + '/2021.txt', token+'\n', err => {
-              if (err) console.log(clc.red('[!] Error saving invalid token to file'))
+              if (err) console.log(clc.red('[!] Error saving 2021 token to file'))
             })
 
 } else 
@@ -152,7 +152,7 @@ if( timestamp > 1640995200000 && timestamp < 1672531200000) {
 setTitle(`Token Age Checker | 2015 : ${onbes} | 2016 : ${onaltı} | 2017: ${onyedi} | 2018 : ${onsekiz} |  2019 : ${ondokuz} |  2020 : ${yirmi} |  2021 : ${yirmibir} | 2022 : ${yirmiiki}  | İnvalid : ${invalid} `);
   
   fs.appendFile(__dirname + '/2022.txt', token+'\n', err => {
-              if (err) console.log(clc.red('[!] Error saving invalid token to file'))
+              if (err) console.log(clc.red('[!] Error saving 2022 token to file'))
             })
 
 } 
