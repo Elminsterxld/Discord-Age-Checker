@@ -16,6 +16,9 @@ npm i
 ## Configuration
 Customizable options in `config.json`
 
+
+
+* **Token Format:** `token ` or `mail:pass:token`
 * **Proxy format:** `ip:port` or `user:pass:ip:port`
 
 
