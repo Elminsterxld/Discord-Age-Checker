@@ -159,7 +159,7 @@ fs.appendFile(__dirname + '/2020.txt', content, err => {
 
 } else 
 
-if( timestamp > 1609459200000 && timestamp <1609459200000) {
+if( timestamp > 1609459200000 && timestamp <1640995200000) {
 
            
  yirmibir+= 1
